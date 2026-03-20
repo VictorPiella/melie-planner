@@ -2,10 +2,10 @@
 
 # 🍽 Mealie Planner
 
-**A drag-and-drop weekly meal planner that syncs directly with your [Mealie](https://mealie.io) instance**
+**A drag-and-drop weekly meal planner that syncs directly with your <a href="https://mealie.io" target="_blank">Mealie</a> instance**
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live-Demo-4CAF50?style=for-the-badge)](https://victorpiella.github.io/mealie-planner/)
-[![Buy Me a Coffee](https://img.shields.io/badge/☕-Buy_me_a_coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/victorpiella)
+<a href="https://victorpiella.github.io/mealie-planner/" target="_blank"><img src="https://img.shields.io/badge/🚀_Live-Demo-4CAF50?style=for-the-badge" alt="Live Demo"></a>
+<a href="https://buymeacoffee.com/victorpiella" target="_blank"><img src="https://img.shields.io/badge/☕-Buy_me_a_coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee"></a>
 
 ![Mealie Planner screenshot](docs/screenshot.png)
 
@@ -30,7 +30,7 @@
 
 ## 🚀 Live Demo
 
-**[victorpiella.github.io/mealie-planner](https://victorpiella.github.io/mealie-planner/)**
+**<a href="https://victorpiella.github.io/mealie-planner/" target="_blank">victorpiella.github.io/mealie-planner</a>**
 
 > The demo uses built-in sample recipes — no Mealie account needed.
 > Self-host to connect your own recipe library.
@@ -42,7 +42,7 @@
 ### Prerequisites
 
 - **Node 20+** (tested on Node 22.5.1 with Vite 5)
-- A running **[Mealie](https://mealie.io)** instance (nightly or recent stable)
+- A running **<a href="https://mealie.io" target="_blank">Mealie</a>** instance (nightly or recent stable)
 
 ### 1 · Clone & install
 
@@ -146,26 +146,9 @@ src/
 |---|---|
 | **Framework** | React 18 + TypeScript 5.5 |
 | **Build** | Vite 5 |
-| **Drag & Drop** | [@dnd-kit/core](https://dndkit.com/) |
-| **Backend** | [Mealie](https://mealie.io) REST API |
+| **Drag & Drop** | <a href="https://dndkit.com/" target="_blank">@dnd-kit/core</a> |
+| **Backend** | <a href="https://mealie.io" target="_blank">Mealie</a> REST API |
 | **Demo hosting** | GitHub Pages via GitHub Actions |
-
----
-
-## 📦 Deploy to GitHub Pages (demo mode)
-
-A ready-to-use workflow lives at `.github/workflows/deploy.yml`.
-
-**One-time setup:**
-
-1. Push the repo to GitHub
-2. Go to **Settings → Pages → Source** → select **"GitHub Actions"**
-3. Push to `main` — the workflow builds and deploys automatically
-
-Your demo will appear at `https://your-username.github.io/mealie-planner/`
-with the built-in sample recipes (no credentials baked into the public build).
-
-> **Different repo name?** Update `VITE_BASE_PATH` in the workflow file.
 
 ---
 
@@ -183,10 +166,10 @@ PRs and issues are welcome!
 
 If Mealie Planner saves you time every week, consider buying me a coffee:
 
-[![Buy Me a Coffee](https://img.shields.io/badge/☕-buymeacoffee.com/victorpiella-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/victorpiella)
+<a href="https://buymeacoffee.com/victorpiella" target="_blank"><img src="https://img.shields.io/badge/☕-buymeacoffee.com/victorpiella-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee"></a>
 
 ---
 
 <div align="center">
-<sub>MIT License · Made with ❤️ by <a href="https://github.com/victorpiella">Victor Piella</a></sub>
+<sub>MIT License · Made with ❤️ by <a href="https://github.com/victorpiella" target="_blank">Victor Piella</a></sub>
 </div>
